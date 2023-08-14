@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  web:
+    image: ashok_web:latest
+    build: 
+      context: ./build/web
+    ports:
+      - 80:80
+    volumes:
+      - ./src/web:/var/www
+    depends_on:
+      - db
+    networks:
+      - ashok
+  db:
+    image: mariadb
+    environment:
+      MARIADB_ROOT_PASSWORD: root  
+      MARIADB_DATABASE: ashok_guitar
+      MARIADB_USER: ashok
+      MARIADB_PASSWORD: ashok123
+    networks:
+      - ashok
+    volumes: 
+      - ./data/db:/var/lib/mysql
+  phpmyadmin:
+    image: arm64v8/phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    networks:
+      - ashok
+    depends_on:
+      - db
+    ports:
+      - 8081:80      
+
+networks:
+  ashok:
+    driver: bridge    
