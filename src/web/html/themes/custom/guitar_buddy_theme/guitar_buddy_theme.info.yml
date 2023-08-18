@@ -1,0 +1,23 @@
+name: guitar_buddy_theme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - guitar_buddy_theme/base
+  - guitar_buddy_theme/messages
+  - guitar_buddy_theme/global-styling
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - guitar_buddy_theme/user
+  core/drupal.dropbutton:
+    - guitar_buddy_theme/dropbutton
+  core/drupal.dialog:
+    - guitar_buddy_theme/dialog
+  file/drupal.file:
+    - guitar_buddy_theme/file
+  core/drupal.progress:
+    - guitar_buddy_theme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.1.2'
