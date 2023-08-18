@@ -66,6 +66,8 @@ RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - &&\
     npm install --global cross-env
 
 RUN apt-get update -y && \
-    apt-get install mariadb-client -y    
+    apt-get install mariadb-client -y
+
+ENV PATH="/var/www/vendor/drush/drush:${PATH}"    
 
 WORKDIR /var/www/html
