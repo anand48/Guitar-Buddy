@@ -1,0 +1,61 @@
+@import "../variables_bootstrap";
+
+.front-page-container {
+    max-width: 100% !important;
+    padding: 0 !important;
+
+    .col-12 {
+        .region-content {
+            padding: 0;
+        }
+    }
+
+    .field--name-field-banner-image {
+        filter: brightness(0.5);
+
+        img {
+            object-fit: cover;
+            height: 100vh !important;
+        }
+    }
+}
+
+.banner-text-style {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+
+    .field--name-body p {
+        font-family: progressFont;
+        background: linear-gradient(to bottom right, #310c00 0%, #dfdadb 71%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 5rem;
+    }
+
+    .field--name-field-banner-action {
+        background: $main-accent;
+        opacity: 0.9;
+        display: inline-block;
+        padding: 1rem;
+        border-radius: 5px;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}
+
+.user-logged-in {
+    .banner-text-style {
+        text-align: center;
+        position: absolute;
+        top: 21%;
+        left: 0;
+        right: 0;
+    }
+}

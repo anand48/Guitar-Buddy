@@ -1,0 +1,88 @@
+@import "../variables_bootstrap";
+
+.main-navbar {
+    .region-nav-main {
+        margin: auto;
+
+        .navbar-nav {
+            column-gap: 2.3rem;
+
+            .nav-link {
+                color: $gb-color-2;
+                font-weight: 300;
+            }
+
+            .is-active {
+                border-bottom: 1px solid $main-accent;
+            }
+        }
+    }
+
+    .region-nav-additional {
+
+        ul {
+            column-gap: 1.5rem;
+
+            .nav-item:last-child {
+                background: $main-accent;
+                border-radius: 5px;
+
+                .nav-link {
+                    color: $gb-white-1;
+                    font-weight: 500;
+                }
+            }
+    
+            .nav-item:hover {
+                scale: 1.1;
+                transform: all .4s !important;
+            }
+        }
+
+        
+
+        .nav-link {
+            color: $gb-color-2;
+            font-weight: 300;
+        }
+    }
+}
+
+.transparent-navbar {
+    position: absolute;
+    z-index: 1;
+    //stick the navbar to the top
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .navbar-brand .site-title {
+        text-decoration: none;
+        color: $gb-color-2 !important;
+    }
+
+    .navbar {
+        padding: 1em !important;
+        text-transform: capitalize;
+        font-size: 0.9rem;
+    }
+}
+
+
+//change the navbar view when the user is logged in. 
+.user-logged-in {
+    .transparent-navbar {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: initial;
+        right: 0;
+    }
+
+    .front-page-container {
+        #block-guitar-buddy-bts-local-tasks {
+            display: none;
+            position: initial;
+        }
+    }
+}

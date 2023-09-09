@@ -3,6 +3,8 @@ global-styling:
   css:
     theme:
       dist/output.css: {}
+  js:
+    //cdn.tailwindcss.com: {type: external}
 
 base:
   version: VERSION

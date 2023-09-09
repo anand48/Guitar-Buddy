@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Guitar Buddy Bootstrap theme file.
+ */
+
+/**
+ * Implements theme_preprocess_page().
+ */
+function guitar_buddy_bts_preprocess_page(&$variables) {
+    // Navbar colour theme.
+    $variables['b5_navbar_schema'] = theme_get_setting('none');
+    $variables['b5_navbar_bg_schema'] = theme_get_setting('none');
+  }
