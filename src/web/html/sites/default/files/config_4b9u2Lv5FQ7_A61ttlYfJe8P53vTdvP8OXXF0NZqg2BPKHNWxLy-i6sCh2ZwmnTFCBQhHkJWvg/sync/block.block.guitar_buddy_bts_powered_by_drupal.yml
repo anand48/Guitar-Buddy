@@ -1,0 +1,22 @@
+uuid: 56d7b4cb-7e85-43db-99c6-9f110e1d26c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: P3_gdeaJhWt5TBg4Bx0fbYVZSvz9j6GMzQsxWgFAoTg
+id: guitar_buddy_bts_powered_by_drupal
+theme: guitar_buddy_bts
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 609472ec-ef50-426d-9891-e439b09df1b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: 5oS-JHasJrSlOmeO17n0CWgnCywTlH_aYHtelOa0eSw
+id: guitar_buddy_bts_content
+theme: guitar_buddy_bts
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

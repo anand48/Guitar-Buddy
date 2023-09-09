@@ -1,0 +1,20 @@
+uuid: 6469472a-6185-4403-a7d4-991278db41a2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - ashok_guitar_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: ashok_guitar_theme_primary_admin_actions
+theme: ashok_guitar_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

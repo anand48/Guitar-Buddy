@@ -1,0 +1,27 @@
+uuid: c12ae725-f524-4903-8151-173034aa7862
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: D4vCXBICCX4QdR35fk9NVelHEcLbfEAaH7siZ8H8d5M
+id: guitar_buddy_bts_main_navigation
+theme: guitar_buddy_bts
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

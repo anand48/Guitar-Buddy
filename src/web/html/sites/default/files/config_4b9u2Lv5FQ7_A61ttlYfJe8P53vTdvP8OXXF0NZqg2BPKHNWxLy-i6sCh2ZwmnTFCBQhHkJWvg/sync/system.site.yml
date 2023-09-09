@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 7be9ef06-8db0-4bd6-8171-0466549f88a9
+name: 'Guitar Buddy'
+mail: anandjanardhan48@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/6
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

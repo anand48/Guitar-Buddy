@@ -1,0 +1,22 @@
+uuid: be744c44-5994-400b-a299-72ab2cec0142
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: ihKhFOI_xIuVoUxUPSVORKPpGYOFe9q_UPSk4emLJ6U
+id: guitar_buddy_bts_messages
+theme: guitar_buddy_bts
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

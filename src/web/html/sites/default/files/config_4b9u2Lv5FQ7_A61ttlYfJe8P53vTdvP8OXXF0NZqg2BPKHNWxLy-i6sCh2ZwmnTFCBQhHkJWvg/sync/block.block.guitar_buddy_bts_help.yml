@@ -1,0 +1,22 @@
+uuid: 82d4de86-17c4-40cc-b3d1-e7f203ec563f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: D4LTnecVDO4D0wTr2b9OFCBmM5UHi2BL-Q0c2etsmAs
+id: guitar_buddy_bts_help
+theme: guitar_buddy_bts
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

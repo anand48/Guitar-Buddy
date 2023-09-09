@@ -1,0 +1,28 @@
+uuid: b74af2c0-4f0f-480a-926f-3407c2f2a848
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: B22BjUmt7qWa0swAURRZtzAsMcn3ElWXjyjkCvlJ4qw
+id: guitar_buddy_bts_search_form
+theme: guitar_buddy_bts
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /test/page

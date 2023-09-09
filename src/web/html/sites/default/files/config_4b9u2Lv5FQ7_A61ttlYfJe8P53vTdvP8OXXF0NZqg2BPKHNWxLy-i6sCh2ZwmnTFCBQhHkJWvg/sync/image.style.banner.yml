@@ -1,0 +1,21 @@
+uuid: a12bcc78-6a25-47fd-a034-7ff59d05f006
+langcode: en
+status: true
+dependencies: {  }
+name: banner
+label: Banner
+effects:
+  b0444878-8b3b-4f17-b6ca-ec1ba7b8d135:
+    uuid: b0444878-8b3b-4f17-b6ca-ec1ba7b8d135
+    id: image_resize
+    weight: 1
+    data:
+      width: 6000
+      height: 4000
+  4fddd11a-0803-497a-9261-7f7aaf9a9878:
+    uuid: 4fddd11a-0803-497a-9261-7f7aaf9a9878
+    id: image_resize
+    weight: 1
+    data:
+      width: 2400
+      height: 1600

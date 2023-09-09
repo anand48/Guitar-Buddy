@@ -1,0 +1,20 @@
+uuid: 1edae43a-cc18-4bb3-b15a-25fa0a256947
+langcode: en
+status: true
+dependencies:
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: MkgNmmTlWE9aCUZw_jNa5Ky_DgnQ287EnpCNBlKlXgM
+id: guitar_buddy_bts_local_actions
+theme: guitar_buddy_bts
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

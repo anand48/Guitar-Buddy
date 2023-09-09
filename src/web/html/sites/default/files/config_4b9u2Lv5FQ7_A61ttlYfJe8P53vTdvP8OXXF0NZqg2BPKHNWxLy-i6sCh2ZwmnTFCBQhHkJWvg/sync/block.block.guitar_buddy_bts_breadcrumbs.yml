@@ -1,0 +1,26 @@
+uuid: e36f22f7-5247-4495-8bf0-66f86b5ae9c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: hDPKQfOoVrXbzfooTTaFSTqrKY5jE2x5uK9hVhVHqwA
+id: guitar_buddy_bts_breadcrumbs
+theme: guitar_buddy_bts
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: /test/page

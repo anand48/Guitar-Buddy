@@ -1,0 +1,27 @@
+uuid: 77b03e24-5629-4769-87da-1e29b8cf1265
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: Vf121J7MEpPNpSStYSIcnH7xwrUNfH_ZtpaGqVtvsBY
+id: guitar_buddy_bts_account_menu
+theme: guitar_buddy_bts
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

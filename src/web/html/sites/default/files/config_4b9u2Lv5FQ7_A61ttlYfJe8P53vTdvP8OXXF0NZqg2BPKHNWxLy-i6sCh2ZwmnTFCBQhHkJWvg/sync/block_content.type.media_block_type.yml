@@ -1,0 +1,8 @@
+uuid: cf8bfaed-382e-4ac5-9769-0a1f682ae1de
+langcode: en
+status: true
+dependencies: {  }
+id: media_block_type
+label: 'Media Block Type'
+revision: 0
+description: 'Add Media '

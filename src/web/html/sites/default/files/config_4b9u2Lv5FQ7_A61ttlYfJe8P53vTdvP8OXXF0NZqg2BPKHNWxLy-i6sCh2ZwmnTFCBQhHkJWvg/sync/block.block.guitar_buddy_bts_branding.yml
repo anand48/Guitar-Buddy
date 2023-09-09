@@ -1,0 +1,25 @@
+uuid: f1ae3a39-4011-4368-86e1-7d1a2b3aa030
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: TdGEogda7_qOwXFUxysBiIkWdDxbC4VUaAXmVeXafyo
+id: guitar_buddy_bts_branding
+theme: guitar_buddy_bts
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

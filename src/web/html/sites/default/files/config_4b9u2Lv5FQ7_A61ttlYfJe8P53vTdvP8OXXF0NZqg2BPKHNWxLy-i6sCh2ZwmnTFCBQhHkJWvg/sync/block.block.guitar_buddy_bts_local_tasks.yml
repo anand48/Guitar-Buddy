@@ -1,0 +1,22 @@
+uuid: cc0e6a64-44b5-4bf2-890e-dac704e9acc2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - guitar_buddy_bts
+_core:
+  default_config_hash: VR2EAO5oAsgT7xPCOr79Sh_P7J1FNMAGJ3KbAUjukMk
+id: guitar_buddy_bts_local_tasks
+theme: guitar_buddy_bts
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
